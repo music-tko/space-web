@@ -1,5 +1,5 @@
-import Navbar from '../navbar/NavBar'
-import useFetch from '../useFetch'
+import Navbar from '../navbar/NavBar';
+import {Link} from "react-router-dom";
 
 const Home = () => {
 
@@ -18,7 +18,7 @@ const Home = () => {
           </p>
         </div>
         <div class="space-button">
-          <button class="explore-btn"><p>Explore</p></button>
+          <Link to="/destination"><button class="explore-btn"><p>Explore</p></button></Link>
         </div>
     </div>
          </main>
