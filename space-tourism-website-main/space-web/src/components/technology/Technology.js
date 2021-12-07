@@ -19,7 +19,7 @@ const Technology = ({data}) => {
  data.then((res) => setTech(res.technology)); 
 
  const imgIndex = (index) => {
-    switch (index) {
+    switch (index) { 
       case 0:
         return img0;
       case 1:

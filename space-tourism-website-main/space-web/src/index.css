@@ -139,9 +139,14 @@ body {
 	color: black;
 }
 
-/* .space-button{
-    
-} */
+/* Loading */
+
+.loading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+}
 
 /* Destination */
 .destination-sect {
@@ -277,10 +282,6 @@ body {
 .heading-number,
 .term {
 	color: gray;
-}
-
-.loading {
-	min-height: 1000px;
 }
 
 .crew-buttons {
