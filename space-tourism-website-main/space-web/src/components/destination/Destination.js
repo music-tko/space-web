@@ -14,7 +14,7 @@ const Destination = ({data}) => {
   useEffect(() => { 
     setData();
     console.log(data)
-  }, []);
+  });
 
     const setData = async () => 
     data

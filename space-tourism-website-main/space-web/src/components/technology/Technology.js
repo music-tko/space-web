@@ -13,7 +13,7 @@ const Technology = ({data}) => {
  useEffect(() => {
     setData();
     console.log(data)
-  }, []);
+  });
 
  const setData = async () =>
  data.then((res) => setTech(res.technology)); 

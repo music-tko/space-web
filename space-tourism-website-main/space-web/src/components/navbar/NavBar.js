@@ -29,7 +29,7 @@ const closeMenu = () => {
                 </ul>
 
                 <div className="burger-menu">
-                   <button onClick={handleToggle}>{navbarOpen ? <img className="burg-img" src={burgerClose}/> : <img className="burg-img" src={burgerOpen}/>}</button>
+                   <button onClick={handleToggle}>{navbarOpen ? <img className="burg-img" src={burgerClose} alt="burger-menu is closed"/> : <img className="burg-img" src={burgerOpen} alt="burger menu is open"/>}</button>
                    <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
                     <li class="nav-a">
                     <NavLink  

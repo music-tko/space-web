@@ -8,7 +8,7 @@
 	margin: 0;
 	padding: 0;
 	color: azure;
-    overflow: hidden;
+	overflow: hidden;
 }
 
 body {
@@ -51,8 +51,8 @@ body {
 	align-items: center;
 }
 
-.burger-menu{
-	display:none;
+.burger-menu {
+	display: none;
 }
 
 .nav-list {
@@ -365,17 +365,15 @@ body {
 }
 /* Media size 1024px to 1270px*/
 
-@media screen and (min-width: 1024px) and (max-width: 1270px){
-	
+@media screen and (min-width: 1024px) and (max-width: 1270px) {
 	.space-main {
-		margin-top:10em;
+		margin-top: 10em;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-direction: row;
 		gap: 250px;
 	}
-
 
 	.space-header {
 		font-size: 5em;
@@ -417,7 +415,7 @@ body {
 	}
 
 	/* Tech Section */
-	.tech-bg{
+	.tech-bg {
 		background-image: url(./components/assets/technology/background-technology-desktop.jpg);
 		background-size: cover;
 	}
@@ -433,7 +431,7 @@ body {
 	.words-tech {
 		margin-top: 2.5em;
 		margin-left: -6em;
-		margin-right: 1.7em
+		margin-right: 1.7em;
 	}
 
 	.tech-pic {
@@ -444,9 +442,9 @@ body {
 
 @media screen and (min-width: 750px) and (max-width: 1020px) {
 	/* Nav Bar Tablet version */
-	*{
-    	overflow-y: auto;
-    	overflow-x:hidden;
+	* {
+		overflow-y: auto;
+		overflow-x: hidden;
 	}
 	.logo {
 		width: 3em;
@@ -455,11 +453,13 @@ body {
 
 	.nav-links {
 		margin-top: 0;
+		overflow-y: hidden;
 	}
 
 	.nav-list {
 		height: 1.1em;
 		width: 20em;
+		overflow-y: hidden;
 	}
 
 	.nav-p {
@@ -471,6 +471,9 @@ body {
 		display: none;
 	}
 
+	.nav-a {
+		overflow-y: hidden;
+	}
 	/* Home Page Tablet Version */
 
 	.space-main {
@@ -490,6 +493,7 @@ body {
 	.space-header {
 		font-size: 10em;
 		line-height: 1.1em;
+		overflow-y: hidden;
 	}
 
 	.space-paragraph {
@@ -561,7 +565,7 @@ body {
 
 	.tech-bg {
 		background: url(./components/assets/technology/background-technology-tablet.jpg);
-	    background-size: cover;
+		background-size: cover;
 	}
 
 	.tech-buttons {
@@ -585,76 +589,74 @@ body {
 	}
 }
 
-
 /* Media size 250px to 750px*/
 @media screen and (min-width: 200px) and (max-width: 750px) {
-*{
-    	overflow-y: auto;
-    	overflow-x:hidden;
+	* {
+		overflow-y: auto;
+		overflow-x: hidden;
 	}
 
 	/* sidebar Nav */
-.navvie{
-	margin: 0;
-	display: flex;
-	flex-direction: row;
-}
+	.navvie {
+		margin: 0;
+		display: flex;
+		flex-direction: row;
+	}
 
-.burger-menu {
-	display: block;
-    position: relative;
-}
+	.burger-menu {
+		display: block;
+		position: relative;
+	}
 
-.burger-menu button {
-  position: fixed;
-  right: 40px;
-  top: 40px;
-  z-index: 10;
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
-  
-}
+	.burger-menu button {
+		position: fixed;
+		right: 40px;
+		top: 40px;
+		z-index: 10;
+		cursor: pointer;
+		background-color: transparent;
+		border: none;
+	}
 
-.menuNav {
-  overflow-y: scroll;
-  list-style: none;
-  position: fixed;
-  top: 0;
-  background: black;
-  right: 0;
-  bottom: 0;
-  height: 100vh;
-  width: 0;
-  overflow: hidden;
-  max-width: 290px;
-  z-index: 9;
-}
+	.menuNav {
+		overflow-y: scroll;
+		list-style: none;
+		position: fixed;
+		top: 0;
+		background: black;
+		right: 0;
+		bottom: 0;
+		height: 100vh;
+		width: 0;
+		overflow: hidden;
+		max-width: 290px;
+		z-index: 9;
+	}
 
-.menuNav.showMenu {
-  width: 100%;
-}
+	.menuNav.showMenu {
+		width: 100%;
+	}
 
-.nav-a {
-  display: block;
-  padding: 10px 40px;
-  text-decoration: none;
-  color: #3fffd2;
-  text-transform: uppercase;
-  font-weight: bold;
-}
+	.nav-a {
+		display: block;
+		padding: 10px 40px;
+		text-decoration: none;
+		color: #3fffd2;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
 
-.menuNav li:first-child {
-  margin-top: 7rem;
-}
+	.menuNav li:first-child {
+		margin-top: 7rem;
+	}
 
-/* .burgerbutton{
+	/* .burgerbutton{
 	background-color: transparent;
 } */
-	
+
 	/* Nav Bar Mobile version */
 
-	 .logo {
+	.logo {
 		width: 2em;
 		height: 2em;
 	}
@@ -662,10 +664,11 @@ body {
 	.nav-links {
 		margin: 0 0 0 40px;
 		padding: 10px 0 0 0;
-	} 
+	}
 
 	.nav-list {
 		display: none;
+		overflow-y: hidden;
 	}
 
 	.nav-p {
@@ -696,6 +699,7 @@ body {
 	}
 
 	.space-header {
+		overflow-y: hidden;
 		font-size: 5em;
 		line-height: 1.1em;
 	}
@@ -852,17 +856,17 @@ body {
 		justify-content: center;
 	}
 
-	.tech-btn{
+	.tech-btn {
 		width: 2em;
 		height: 2em;
 	}
 
-	.tech-heading{
+	.tech-heading {
 		font-size: 1.6em;
 	}
 
-	.description-tech{
-		font-size: 0.9em
+	.description-tech {
+		font-size: 0.9em;
 	}
 
 	.tech-pic {
