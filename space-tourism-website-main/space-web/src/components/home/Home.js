@@ -8,9 +8,9 @@ const Home = () => {
          <Navbar />
              <div class="space-main">
     <div class="space-section">
-    <h3 class="space-subheading"> So, you want to travel to</h3>
+    <h3 class="space-subheading"> SO, YOU WANT TO TRAVEL TO</h3>
 
-    <h1 class="space-header">Space</h1>
+    <h1 class="space-header">SPACE</h1>
 
           <p class="space-paragraph">Let’s face it; if you want to go to space, you might as well genuinely go to 
           outer space and not hover kind of on the edge of it. Well sit back, and relax 

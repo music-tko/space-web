@@ -71,7 +71,8 @@ const Destination = ({data}) => {
                  
                    
                         <div className="content-slide">
-                        <div className="desti-buttons">
+                        <div 
+                        className="desti-buttons">
                         <Dot className="desti-btn" slide={0} children="M O O N" />
                 
                          <Dot className="desti-btn" slide={1} children="M A R S"/>

@@ -66,7 +66,7 @@ const Crew = ({data}) => {
                            <div className="words"> 
                            <h2 className="role">{item.role.toUpperCase()}</h2>
                           <h1 className="crew-heading">{item.name.toUpperCase()}</h1>
-                          <p class="description">{item.bio}</p>
+                          <p class="description crew-words">{item.bio}</p>
                           </div>
                             <div className="crew-buttons">
                                 <Dot className="crew-btn" slide={0}/>

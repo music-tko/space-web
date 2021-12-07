@@ -46,7 +46,7 @@ const Technology = ({data}) => {
                     <CarouselProvider
                     naturalSlideWidth={100}
                     naturalSlideHeight={125}
-                    totalSlides={4}
+                    totalSlides={3}
                     >                   
         <Slider>
                         
@@ -59,7 +59,7 @@ const Technology = ({data}) => {
                        <div className="tech-content">
                        <img src={imgIndex(index)} alt={item.name} className="tech-pic"/>
                     
-                          
+                          <div className="mobile-tech">
                            <div className="words words-tech"> 
                            <h2 className="term">T H E &nbsp;&nbsp; T E R M I N O L O G Y</h2>
                           <h1 className="tech-heading">{item.name.toUpperCase()}</h1>
@@ -71,7 +71,7 @@ const Technology = ({data}) => {
                                 <Dot className="tech-btn" slide={1} children="2"/>
                                 
                                 <Dot className="tech-btn" slide={2} children="3"/>
-                                                            
+                            </div>                               
                           </div>
                         </div>
                       </div>                 
