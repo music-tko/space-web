@@ -128,12 +128,6 @@ body {
 	margin-bottom: 20px;
 }
 
-.space-button:hover {
-	background-color: #cc252591;
-	width: 20em;
-	border-radius: 100%;
-}
-
 .explore-btn p {
 	font-size: 34px;
 	color: black;
