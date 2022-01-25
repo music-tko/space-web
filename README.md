@@ -1,7 +1,5 @@
 # space-web
 
-# Compliments
-
 <div id="top"></div>
 
 <!-- PROJECT SHIELDS -->
@@ -21,7 +19,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/music-tko/space-web">
-<p> Compliments To You </p>  </a>
+<p> Space Website</p>  </a>
 
 <h3 align="center">Space Website</h3>
 
